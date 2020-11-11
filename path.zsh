@@ -13,11 +13,11 @@
 # export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 # Local bin directories before anything else
-# export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+# Load the brew ruby versions
+# export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 # Load custom commands
 # Disabled this because I have no custom binaries at the moment.
-# export PATH="$DOTFILES/bin:$PATH"
-#
-# bin in hidden $HOME/.local
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$DOTFILES/bin:$PATH"

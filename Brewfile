@@ -1,7 +1,6 @@
 # Taps
 tap 'homebrew/bundle'
 tap 'homebrew/core'
-#tap 'elastic/tap'
 
 # Install ZSH
 brew 'zsh'
@@ -52,9 +51,9 @@ brew 'wget'
 #brew 'elastic/tap/filebeat-oss'
 
 # Quicklook
- cask 'qlcolorcode'
- cask 'quicklook-json'
- cask 'quicklook-csv'
+cask 'qlcolorcode'
+cask 'quicklook-json'
+cask 'quicklook-csv'
 
 # Fonts
 cask 'font-meslo-for-powerline'
