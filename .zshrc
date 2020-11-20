@@ -8,7 +8,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
@@ -90,14 +92,3 @@ export ARCHFLAGS="-arch x86_64"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# Powerlevel9K settings
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time docker_machine background_jobs time battery)
-POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=0
-POWERLEVEL9K_COMMAND_EXECUTION_TIME_PRECISION=2
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
-POWERLEVEL9K_TIME_FORMAT='%D{%H:%M}'
-ZLE_RPROMPT_INDENT=0
-
-eval "$(rbenv init -)"
