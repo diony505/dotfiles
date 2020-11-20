@@ -46,14 +46,6 @@ brew 'tree'
 brew 'w3m'
 brew 'wget'
 
-#Install Filebeat
-#brew 'elastic/tap/filebeat-oss'
-
-# Quicklook
-cask 'qlcolorcode'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-
 # Fonts
 cask 'font-meslo-for-powerline'
 cask 'font-source-code-pro-for-powerline'
