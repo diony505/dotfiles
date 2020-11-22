@@ -5,6 +5,9 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 
+# Make sure apps get installed in system Applications dir
+cask_args appdir: '/Applications'
+
 # Install ZSH
 brew 'zsh'
 brew 'zsh-completions'
@@ -34,11 +37,11 @@ brew 'htop'
 brew 'httpie'
 brew 'hub'
 brew 'hugo'
+brew 'imagemagick'
 brew 'mas'
 brew 'nmap'
 brew 'nnn'
 brew 'pandoc'
-brew 'pandoc-citeproc'
 brew 'pandoc-crossref'
 brew 'pyenv'
 brew 'python'
@@ -50,13 +53,29 @@ brew 'tree'
 brew 'w3m'
 brew 'wget'
 
-Apps via casks
-cask '1password'
+# Apps via casks
+#cask '1password'
+#cask 'alfred'
+#cask 'backblaze'
+#cask 'bartender'
+#cask 'brave-browser'
+#cask 'calibre'
+#cask 'cleanmymac'
+#cask 'dash'
+#cask 'deepl'
+#cask 'devonagent'
+#cask 'devonthink'
 cask 'docker'
+#cask 'dropbox'
+#cask 'expressvpn'
 cask 'firefox'
+#cask 'forklift'
+#cask 'iterm2'
 cask 'skype'
 cask 'slack'
 cask 'transmission'
+#cask 'vagrant'
+#cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
@@ -68,4 +87,6 @@ cask 'quicklook-json'
 cask 'quicklook-csv'
 
 # Mac App Store
+mas '1Blocker', id:1107421413
+mas 'FruitJuice', id:671736912
 mas 'Keynote', id: 409183694
