@@ -20,6 +20,7 @@ Follow these install instructions to setup a new Mac.
 6. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file
 7. Run `install.sh` to start the installation
 8. Restart your computer to finalize the process
+9. Install any software that could not be installed with brew.
 
 Your Mac is now ready to use!
 

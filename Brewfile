@@ -54,31 +54,47 @@ brew 'w3m'
 brew 'wget'
 
 # Apps via casks
-#cask '1password'
-#cask 'alfred'
-#cask 'backblaze'
-#cask 'bartender'
-#cask 'brave-browser'
-#cask 'calibre'
-#cask 'cleanmymac'
-#cask 'dash'
-#cask 'deepl'
-#cask 'devonagent'
-#cask 'devonthink'
+cask 'alfred'
+cask 'backblaze'
+cask 'bartender'
+cask 'brave-browser'
+cask 'calibre'
+cask 'cleanmymac'
+cask 'dash'
+cask 'deepl'
+cask 'devonagent'
+cask 'devonthink'
 cask 'docker'
-#cask 'dropbox'
-#cask 'expressvpn'
+cask 'dropbox'
+cask 'expressvpn'
 cask 'firefox'
-#cask 'forklift'
-#cask 'iterm2'
+cask 'forklift'
+cash 'istat-menus'
+cask 'iterm2'
+cask 'ledger-live'
+cask 'little-snitch4'
+cask 'mactex'
+cask 'obsidian'
+cask 'omnigraffle'
+cask 'omnioutliner'
+cask 'plex-media-player'
+cask 'prowritingaid'
+cask 'scapple'
+cask 'scrivener'
+cask 'spamsieve'
 cask 'skype'
 cask 'slack'
 cask 'transmission'
-#cask 'vagrant'
-#cask 'virtualbox'
+cask 'vagrant'
+cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'vmware-fusion11'
 cask 'whatsapp'
+cask 'wireshark'
+cask 'zerotier-one'
+cask 'zoom'
+cask 'zotero'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -89,4 +105,11 @@ cask 'quicklook-csv'
 # Mac App Store
 mas '1Blocker', id:1107421413
 mas 'FruitJuice', id:671736912
-mas 'Keynote', id: 409183694
+mas 'Gemini 2: The Duplicate Finder', id:1090488118
+mas 'Magnet', id:441258766
+mas 'Keynote', id:409183694
+mas 'Microsoft OneNote', id:784801555
+mas 'MindNode – Mind Map', id:1289197285
+mas 'MoneyWiz 2020 Personal Finance', id:1511185140
+mas 'Notability', id:736189492
+mas 'Numbers', id:409203825
