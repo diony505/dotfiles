@@ -69,7 +69,8 @@ cask 'dropbox'
 cask 'expressvpn'
 cask 'firefox'
 cask 'forklift'
-cash 'istat-menus'
+cask 'gemini'
+cask 'istat-menus'
 cask 'iterm2'
 cask 'ledger-live'
 cask 'little-snitch4'
@@ -77,6 +78,7 @@ cask 'mactex'
 cask 'obsidian'
 cask 'omnigraffle'
 cask 'omnioutliner'
+cask 'pdf-expert'
 cask 'plex-media-player'
 cask 'prowritingaid'
 cask 'scapple'
@@ -105,7 +107,6 @@ cask 'quicklook-csv'
 # Mac App Store
 mas '1Blocker', id:1107421413
 mas 'FruitJuice', id:671736912
-mas 'Gemini 2: The Duplicate Finder', id:1090488118
 mas 'Magnet', id:441258766
 mas 'Keynote', id:409183694
 mas 'Microsoft OneNote', id:784801555
@@ -113,3 +114,9 @@ mas 'MindNode – Mind Map', id:1289197285
 mas 'MoneyWiz 2020 Personal Finance', id:1511185140
 mas 'Notability', id:736189492
 mas 'Numbers', id:409203825
+mas 'Pages'., id:409201541
+mas 'Redshift Premium - Astronomy', id:1317255531
+mas 'Things 3', id:904280696
+mas 'Telegram', id:747648890
+mas 'TweetDeck by Twitter', id:485812721
+mas 'Yubico Authenticator', id:1497506650
