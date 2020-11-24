@@ -38,6 +38,7 @@ brew 'httpie'
 brew 'hub'
 brew 'hugo'
 brew 'imagemagick'
+brew 'mackup'
 brew 'mas'
 brew 'nmap'
 brew 'nnn'
@@ -114,8 +115,7 @@ mas 'MindNode – Mind Map', id:1289197285
 mas 'MoneyWiz 2020 Personal Finance', id:1511185140
 mas 'Notability', id:736189492
 mas 'Numbers', id:409203825
-mas 'Pages'., id:409201541
-mas 'Redshift Premium - Astronomy', id:1317255531
+mas 'Pages', id:409201541
 mas 'Things 3', id:904280696
 mas 'Telegram', id:747648890
 mas 'TweetDeck by Twitter', id:485812721
